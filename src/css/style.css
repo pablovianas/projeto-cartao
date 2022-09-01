@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    background-color: var(--background-color);
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+hr{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.cartao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 360px;
+}
+
+.cartao .perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.cartao .perfil img{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.cartao .informacoes-perfil{
+    padding: 30px;
+    text-align: center;
+}
+
+.cartao .perfil p{
+    font-weight: 700;
+}
+
+.cartao .perfil .idade,
+.cartao .perfil .ocupacao{
+    color: var(--text-color);
+}
+
+.cartao .detalhes{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.cartao .detalhes img{
+    max-width: 32px;
+    cursor: pointer;
+}
+
+.informacoes-perfil .info{
+    display: none;
+}
+
+.informacoes-perfil .info .sobre{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.informacoes-perfil .info.selecionado{
+    display: block;
+    width: 100%;
+}
+
+.informacoes-perfil .info .descricao{
+    max-height: 170px;
+    overflow-y: auto;
+}
+
+.informacoes-perfil .info .redes-sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
